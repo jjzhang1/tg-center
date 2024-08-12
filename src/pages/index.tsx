@@ -6,13 +6,13 @@ export default function Index(props: any) {
   return (
     <div className="index_container">
       <Image
-        src="/assets/images/home.png"
-        alt=""
+        src="/assets/images/home.png" // 图片路径
+        alt="Descriptive Alt Text"
         layout="responsive"
-        placeholder="blur"
-        blurDataURL="/assets/images/default.png"
-        width={1}
-        height={1}
+        width={700}
+        height={475}
+        placeholder="blur" // 开启模糊占位符
+        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMGA0NGDIhQTQ0Njc/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAQABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUG/8QAIhAAAQQCAwAAAAAAAAAAAAAAAQIDBBEABRIhMUGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAaEQACAwADAAAAAAAAAAAAAAABAgADESEiMf/aAAwDAQACEQMRAD8A7iiIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICKio6+qu0y2aR1Tf//Z"
       />
     </div>
   );
