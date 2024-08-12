@@ -17,10 +17,10 @@ const httpsOptions = {
 };
 
 app.prepare().then(() => {
-  createServer(httpsOptions, (req: any, res: any) => {
+  createServer(httpsOptions, (req, res) => {
     const parsedUrl = parse(req.url, true);
     handle(req, res, parsedUrl);
-  }).listen(port, (err: any) => {
+  }).listen(port, (err) => {
     if (err) throw err;
     console.log("ready - started server on url: https://localhost:" + port);
   });
