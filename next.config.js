@@ -2,10 +2,34 @@ const withLess = require("next-plugin-less");
 
 module.exports = withLess({
   compress: true,
-  lessLoaderOptions: {
-    lessOptions: {
-      javascriptEnabled: true,
-    },
+  webpack: (config, { isServer, webpack }) => {
+    config.module.rules.push({
+      test: /\.less$/,
+      use: [
+        {
+          loader: "style-loader",
+        },
+        {
+          loader: "css-loader",
+        },
+        {
+          loader: "less-loader",
+          options: {
+            lessOptions: {
+              modifyVars: {
+                // 如果需要自定义主题
+                "primary-color": "#1DA57A",
+                "link-color": "#1DA57A",
+                "border-radius-base": "2px",
+              },
+              javascriptEnabled: true,
+            },
+          },
+        },
+      ],
+    });
+
+    return config;
   },
   async rewrites() {
     const env = process.env.NODE_ENV;
