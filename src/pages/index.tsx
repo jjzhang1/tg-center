@@ -5,6 +5,9 @@ import Image from "next/image";
 export default function Index(props: any) {
   return (
     <div className="index_container">
+      <h1>不同的 哈哈哈哈</h1>
+      <p className="ignore-p">Recommend</p>
+      <button>点击积极</button>
       <Image
         src="/assets/images/home.png" // 图片路径
         alt="Descriptive Alt Text"
