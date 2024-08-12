@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "./Input.module.css";
 import classNames from "classnames";
 
-export default function Input(props) {
+export default function Input(props: any) {
   const { placeholder = "Search", onChange, value = "", enterKey } = props;
 
   const [values, setValues] = useState("");
@@ -11,12 +11,12 @@ export default function Input(props) {
     setValues(value);
   }, [value]);
 
-  const inputChange = (e) => {
+  const inputChange = (e: any) => {
     setValues(e.target.value);
     onChange(e.target.value);
   };
 
-  const handleKeyDown = (event) => {
+  const handleKeyDown = (event: any) => {
     if (event.key === "Enter") {
       enterKey();
     }

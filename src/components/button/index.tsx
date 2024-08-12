@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./Button.module.css";
 import classnames from "classnames";
 
-export default function Button(props) {
+export default function Button(props: any) {
   const {
     btnType = "default",
     size = "large",

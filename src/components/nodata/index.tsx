@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import classnames from "classnames";
 import styles from "./Nodata.module.css";
 
-export default function Nodata(props) {
+export default function Nodata(props: any) {
   return (
     <div className={classnames(styles.nodata)}>
       <div className={styles.icon}></div>
