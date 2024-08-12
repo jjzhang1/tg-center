@@ -1,0 +1,41 @@
+.tipsWrapper {
+  position: relative;
+}
+.tips {
+  position: absolute;
+  display: flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.9);
+
+  color: var(--Gray-White, #fff);
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 14px;
+  z-index: 100;
+}
+.tips::before {
+  position: absolute;
+  content: " ";
+  bottom: -1px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  transform: rotate(135deg) translateX(50%);
+  z-index: 9;
+}
+.top {
+  top: -34px;
+  right: -100%;
+}
+.bottom {
+}
+.left {
+}
+.right {
+}

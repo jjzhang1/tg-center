@@ -1,0 +1,59 @@
+.pagenationWrap {
+  display: flex;
+  align-items: center;
+}
+.number {
+  margin-right: 12px;
+}
+.current {
+  color: #fff;
+  font-family: Sora;
+  font-size: 14px;
+  font-weight: 400;
+}
+.line {
+  color: var(--font-icon-white-01, var(--gary3, #595959));
+  font-family: Sora;
+  font-size: 14px;
+  font-weight: 400;
+}
+.total {
+  color: var(--font-icon-white-01, var(--gary3, #595959));
+  font-family: Sora;
+  font-size: 14px;
+  font-weight: 400;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+.icon > div {
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+.iconL {
+  background-image: url(/assets/images/game/icon-right-w.svg);
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 50% 50%;
+  transform: rotate(180deg);
+}
+.iconR {
+  background-image: url(/assets/images/game/icon-right-w.svg);
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 50% 50%;
+  margin-left: 8px;
+}
+.disL {
+  background-image: url(/assets/images/game/icon-right-b.svg);
+  transform: rotate(0);
+}
+.disR {
+  background-image: url(/assets/images/game/icon-right-b.svg);
+  transform: rotate(180deg);
+}

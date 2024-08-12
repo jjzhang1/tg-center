@@ -1,0 +1,84 @@
+.bannerItem {
+  /* width: 1136px; */
+  width: 100%;
+  height: 540px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.linearBg {
+  background: linear-gradient(
+    89deg,
+    rgba(15, 15, 15, 0.78) 27.94%,
+    rgba(10, 10, 30, 0) 106.47%
+  );
+  width: inherit;
+  height: inherit;
+  box-sizing: border-box;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; /* 32px */
+  text-transform: capitalize;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    #fff 50.26%,
+    rgba(255, 255, 255, 0.62) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 24px;
+}
+.description {
+  width: 408px;
+  color: #bdbdbf;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+}
+.review {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+}
+.btnBox {
+  margin-top: 57px;
+}
+.rate {
+  margin-top: 16px;
+}
+.btnGetStarted {
+  width: 164px;
+  height: 48px;
+  background-size: 100%;
+}
+.oCardBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,29 @@
+.nodata {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.icon {
+  width: 90px;
+  height: 90px;
+  background-image: url(/assets/images/game/icon-nodata.png);
+  background-size: cover;
+}
+.title {
+  color: var(--font-icon-white-03, var(--gray-1, #bdbdbf));
+  text-align: center;
+  font-family: Sora;
+  font-size: 14px;
+  margin-top: 16px;
+}
+.message {
+  color: var(--Brand-color-03, #7b46ff);
+  font-family: Sora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 6px;
+}

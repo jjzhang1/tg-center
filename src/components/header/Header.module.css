@@ -1,0 +1,85 @@
+.padd15 {
+  padding-left: 15px;padding-right: 15px;
+}
+.padd30 {
+  background: url('/assets/img/Noise-Animation.png');
+  background-repeat: repeat;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-left: 5%;
+  padding-right:5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cf{color: #fff;}
+li.active{color: #7F4CFF;}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.w400{width: 400px;}
+.flex{display: flex;}
+.jus{justify-content: space-between;}
+.ane{align-items: center;}
+.wrap{flex-wrap: wrap;}
+.w80{width: 80%;margin-left: auto;margin-right: auto;}
+.img20{width: 32px;height:32px;}
+.bg10{background: #101010;}
+.w50{width: 50%;}
+.w420 a{color: #fff;}
+.w570{width: 570px;}
+.w420{width: 420px;}
+.c80{color: #808080;}
+.foot{padding: 50px 0;}
+.top{padding-top: 1rem;}
+.divimg5{display: flex;justify-content: center;align-items: center;}
+.divimg5 img{margin-top: 113px;}
+.mb20{margin-bottom: 20px;}
+@media (min-width:1200px) {
+  .w90 {width: 1200px;margin-left: auto;margin-right: auto;}
+  .w480{width: 48%;}
+  .juc{justify-content: center;}
+  .w75{width: 75%;margin-left: auto;margin-right: auto;}
+  .fs20 {font-size: 40px;}
+  .fs12{font-size: 24px;}
+  .fs22{font-size: 44px;}
+  .w84{width: 84%;}
+  .three li em{color: #edba74;font-size: 24px;}
+  .three li{background: #222325;position: relative;width: 32%;padding: 40px;box-sizing: border-box;border-radius: 10px;}
+  .three li .img2{width: 340px;margin-left: auto;margin-right: auto;margin-top: -200px;margin-left: auto;margin-right: auto;display: block;}
+  .img10{width: 20px;}
+  .three li .fs20{margin-bottom: 20px;}
+ 
+  .foot .fs20{font-size: 20px;}
+}
+.pop{position: relative;}
+.img13{width: 60%;position: absolute;left: 10%;bottom: 20%;z-index: 9;}
+.btn{
+  display: flex;
+  padding: 12px 35px;
+  flex-direction: column;
+
+  border-radius: 68px;
+  background: linear-gradient(97deg, #7B46FF 37.9%, #FF8744 108.01%);
+  backdrop-filter: blur(21.899999618530273px);
+  text-align: center;
+  width: 214px;
+  font-size: 18px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
+.title{
+  color: #FFF;
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 160px;
+  margin-top: 240px;
+}
+.hdli{
+  cursor: pointer;
+}

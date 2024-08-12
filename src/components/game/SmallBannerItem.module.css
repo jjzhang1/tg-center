@@ -1,0 +1,32 @@
+.smallBannerItem {
+  width: 120px;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.activeItem {
+  border: 1.5px solid rgba(255, 255, 255, 0.66);
+  box-shadow: 0px 0px 21.8px 0px rgba(255, 255, 255, 0.25);
+}
+
+.active {
+  border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.opacityBg {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.27);
+  transform: translate3d(-120px, 0, 0);
+}
+
+.opacityAnimation {
+  transition: transform 4s ease-out;
+  transform: translate3d(0, 0, 0);
+}

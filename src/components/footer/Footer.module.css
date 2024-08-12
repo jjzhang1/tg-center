@@ -1,0 +1,410 @@
+.padd15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.w100 {
+  width: 100%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.cf {
+  color: #8d93bd;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+.fs12 {
+  font-size: 12px;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs20 {
+  font-size: 14px;
+}
+.fs22 {
+  font-size: 22px;
+}
+.fs24 {
+  font-size: 24px;
+}
+.fs28 {
+  font-size: 28px;
+}
+.fs30 {
+  font-size: 30px;
+}
+.fs32 {
+  font-size: 32px;
+}
+.fs34 {
+  font-size: 34px;
+}
+.fw {
+  font-weight: bold;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.tc {
+  text-align: center;
+}
+.w96 {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.w90 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+.mb100 {
+  margin-bottom: 100px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+.mb50 {
+  margin-bottom: 50px;
+}
+.c555 {
+  color: #555555;
+}
+.five {
+  padding-bottom: 100px;
+}
+.w90 {
+  width: 90%;
+}
+li.active {
+  color: #7f4cff;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.w400 {
+  width: 400px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flex {
+  display: flex;
+}
+.jus {
+  justify-content: space-between;
+}
+.ane {
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(18, 20, 43, 1);
+}
+.three li {
+  background: #222325;
+  position: relative;
+  width: 32%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.three li .img1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+}
+.three li .img2 {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -99px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.three li div {
+  word-break: break-all;
+}
+.three li .fs20 {
+  margin-top: -15px;
+}
+.three li em {
+  color: #edba74;
+  font-size: 12px;
+}
+.four {
+  position: relative;
+
+  padding-top: 30px;
+  margin-bottom: 240px;
+}
+
+.w80 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img20 {
+  width: 32px;
+  height: 32px;
+}
+.subtitle {
+  width: 142px;
+  padding-top: 8px;
+}
+.subtitle > img {
+  width: 100%;
+}
+.bg10 {
+  background: #101010;
+}
+.w50 {
+  width: 50%;
+}
+.w570 {
+  width: 390px;
+}
+.w420 {
+  width: 50%;
+}
+.c80 {
+  padding-top: 20px;
+  color: var(--font-icon-white-02, var(--gray-2, #8b8b8c));
+  font-family: Sora;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+}
+.foot {
+  padding: 50px 36px;
+}
+.top {
+  padding-top: 1rem;
+}
+.divimg5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divimg5 img {
+  margin-top: 113px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  .w90 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+  }
+  .w480 {
+    width: 48%;
+  }
+  .juc {
+    justify-content: center;
+  }
+  .w75 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fs20 {
+    font-size: 14px;
+  }
+  .fs12 {
+    font-size: 24px;
+  }
+  .fs22 {
+    font-size: 44px;
+  }
+  .w84 {
+    width: 84%;
+  }
+  .three li em {
+    color: #edba74;
+    font-size: 24px;
+  }
+  .three li {
+    background: #222325;
+    position: relative;
+    width: 32%;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .three li .img2 {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .img10 {
+    width: 20px;
+  }
+  .three li .fs20 {
+    margin-bottom: 20px;
+  }
+
+  .foot .fs20 {
+    font-size: 14px;
+  }
+}
+.pop {
+  position: relative;
+}
+.img13 {
+  width: 60%;
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+  z-index: 9;
+}
+.btn {
+  display: flex;
+  padding: 12px 35px;
+  flex-direction: column;
+
+  border-radius: 68px;
+  background: linear-gradient(97deg, #7b46ff 37.9%, #ff8744 108.01%);
+  backdrop-filter: blur(21.899999618530273px);
+  text-align: center;
+  width: 214px;
+  font-size: 18px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  /* font-family: Söhne; */
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 160px;
+  margin-top: 240px;
+}
+.allImg {
+  display: inline-block;
+  overflow-x: auto;
+  width: 100%;
+}
+.allImg img {
+  display: block;
+  width: 100%;
+}
+.footerUl p {
+  padding-top: 20px;
+  cursor: pointer;
+  color: #7e8598;
+  text-align: left;
+  font-family: Sora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.allImg ul {
+  white-space: nowrap;
+}
+.allImg ul li {
+  display: inline-block;
+  width: 33.3%;
+  margin-right: 15px;
+}
+.element7 {
+  border: 1px solid;
+  border-color: #3f3f3f;
+  border-radius: 2px;
+  height: 36px;
+  width: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.textWrapper2 {
+  cursor: pointer;
+  color: rgba(227, 227, 227, 1);
+  font-family: "HarmonyOS Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+.textImg {
+  cursor: pointer;
+  height: 6px;
+  width: 10px;
+}
+.textImg4 {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+.foot svg {
+  cursor: pointer;
+}
+.fBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.internet {
+  color: #7e8598;
+  text-align: center;
+  font-family: Sora;
+  font-size: 12px;
+  font-weight: 400;
+}
+.social {
+}
+.social img {
+  width: 20px;
+  margin-left: 32px;
+}

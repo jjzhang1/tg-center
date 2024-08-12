@@ -1,0 +1,86 @@
+.button {
+  border-radius: 68px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "PingFang SC";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disabled {
+  background: #322d39 !important;
+  backdrop-filter: none !important;
+  color: #8b8b8c !important;
+}
+
+.default {
+  color: #fff;
+  border-radius: 68px;
+  background: linear-gradient(97deg, #7b46ff 37.9%, #ff8744 108.01%);
+  backdrop-filter: none !important;
+}
+.default:hover {
+  background: linear-gradient(97deg, #5323cc 37.9%, #cc6c36 108.01%);
+  backdrop-filter: none !important;
+}
+
+.large {
+  width: 240px;
+  padding: 12px 90px;
+}
+
+.small {
+  width: 86px !important;
+  height: 36px !important;
+}
+
+.medium {
+  width: 214px !important;
+  height: 30px !important;
+}
+
+.long {
+  width: 258px !important;
+  height: 30px !important;
+}
+.loadingContent {
+  display: flex;
+  align-items: center;
+}
+.loadingContent > img {
+  width: 16px;
+  height: 16px;
+}
+.loading {
+  animation: spin 0.8s linear infinite;
+}
+.loadingContent > span {
+  color: var(--font-icon-white-04, #fff);
+  text-align: center;
+  justify-content: center;
+  font-family: "Bai Jamjuree";
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 750px) {
+  .large {
+    width: 140px;
+    padding: 12px 30px;
+  }
+  .long {
+    width: 100% !important;
+    height: 30px !important;
+  }
+}

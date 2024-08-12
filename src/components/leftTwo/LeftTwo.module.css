@@ -1,0 +1,124 @@
+.leftTOPfix {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+.img1 {
+  width: 148px;
+  height: 41.983px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pad25 {
+  width: 450px;
+  padding: 25px;
+  box-sizing: border-box;
+  border-right: 1px solid #262626;
+  height: 100vh;
+  background: #0f0f0f;
+}
+.ul1left li {
+  list-style: none;
+}
+.ul1left {
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+}
+.ul1left li img {
+  margin-right: 10px;
+}
+.ul1left li {
+  color: #fff;
+  width: 400px;
+  border-radius: 12px;
+  border: 1px solid #4d4d50;
+  background: #17171a;
+
+  margin-bottom: 24px;
+}
+.ul1left li.active {
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(175, 147, 197, 0.18);
+  backdrop-filter: blur(39.79999923706055px);
+}
+.img2left {
+  width: 32px;
+}
+.pmy {
+  color: var(--Greyscale-0, #fff);
+  font-family: "PingFang SC";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin-top: 48px;
+  margin-bottom: 36px;
+}
+.img2left3 {
+  width: 16px;
+  margin-left: 3px;
+}
+.lefttop1 {
+  color: #8b8b8c;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+}
+.lefttop2 {
+  color: var(--Greyscale-0, #fff);
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+.lefttop3 {
+  background: rgba(77, 77, 80, 0.3);
+}
+.pl16 {
+  padding-left: 16px;
+}
+.pr16 {
+  padding-right: 16px;
+}
+.ptb8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.flex {
+  display: flex;
+}
+.jus {
+  justify-content: space-between;
+}
+.ane {
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.jud {
+  justify-content: flex-end;
+}
+.padr30 {
+  padding-right: 30px;
+}
+.w256 {
+  width: 256px;
+}
+.f1 {
+  flex: 1;
+}

@@ -1,0 +1,80 @@
+.inputWrap {
+  width: 290px;
+  padding: 6px 12px;
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid #2b2b2b;
+  background: rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: 0;
+  flex: 0.9;
+  outline: none;
+  color: #fff;
+  color: var(--font-icon-white-04, #fff);
+  font-family: Sora;
+  font-size: 14px;
+  font-weight: 600;
+  flex: 1;
+  margin: 0 12px;
+}
+
+.iconSearch {
+  width: 18px;
+  height: 18px;
+  background-image: url(/assets/images/game/icon-search.png);
+  background-size: cover;
+}
+.iconClose {
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/images/game/icon-close.png);
+  background-size: 50% 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: none !important;
+}
+.iconClose:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.inputWrap:hover {
+  width: 560px;
+  border: 1px solid #7b46ff;
+  transition: width 0.3s ease-in-out;
+}
+.inputWrap:active {
+  box-shadow: 0px 0px 0px 2px rgba(123, 70, 255, 0.25);
+}
+
+.inputWrap:hover .iconClose {
+  cursor: pointer;
+  display: block !important;
+}
+
+.inputWrap:hover .iconSearch {
+  background-image: url(/assets/images/game/icon-search-b.png) !important;
+}
+
+.width {
+  border: 1px solid #7b46ff;
+  width: 560px !important;
+}
+
+.width .iconClose {
+  display: block !important;
+  cursor: pointer;
+}
+
+.width .iconSearch {
+  background-image: url(/assets/images/game/icon-search-b.png) !important;
+}
