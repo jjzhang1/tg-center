@@ -10,6 +10,26 @@ export default function Index(props: any) {
         src="/assets/images/home.svg"
         alt=""
         layout="responsive"
+        placeholder="blur"
+        blurDataURL="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        width={1}
+        height={1}
+      />
+      <Image
+        src="/assets/images/home.svg"
+        alt=""
+        layout="responsive"
+        placeholder="blur"
+        blurDataURL="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        width={1}
+        height={1}
+      />
+      <Image
+        src="/assets/images/home.svg"
+        alt=""
+        layout="responsive"
+        placeholder="blur"
+        blurDataURL="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
         width={1}
         height={1}
       />
